@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Welcome to Opsis QA</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{--navy:#0a1626;--teal:#22c7d6;--teal-deep:#0e9aa7;--ink:#eaf2f8;--muted:#9db4c6;--line:#1f3450;--card:#0f2032}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--navy);color:var(--ink);
+    min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;line-height:1.55}
+  .card{max-width:520px;width:100%;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:40px;text-align:center}
+  .check{width:64px;height:64px;border-radius:50%;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;
+    background:rgba(34,199,214,.14);color:var(--teal);font-size:32px}
+  h1{font-size:28px;letter-spacing:-.02em;margin:0 0 10px}
+  p{color:var(--muted);margin:0 0 14px}
+  .steps{text-align:left;margin:22px 0 8px;padding:0;list-style:none}
+  .steps li{padding:10px 0 10px 30px;position:relative;font-size:15px}
+  .steps li:before{content:"→";position:absolute;left:0;color:var(--teal);font-weight:700}
+  .btn{display:inline-block;margin-top:18px;background:linear-gradient(135deg,var(--teal),var(--teal-deep));
+    color:#04121b;font-weight:600;border-radius:10px;padding:13px 24px;text-decoration:none}
+  .brand{font-weight:800;font-size:18px;margin-bottom:26px}
+  .brand span{color:var(--teal)}
+  .fine{font-size:13px;margin-top:20px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="brand">Opsis<span>QA</span></div>
+    <div class="check">✓</div>
+    <h1>You're in — trial started</h1>
+    <p>Your 14-day free trial is active. No charge until the trial ends, and you can cancel anytime.</p>
+    <ul class="steps">
+      <li><strong>Check your email.</strong> We just sent an invite to set your password.</li>
+      <li><strong>Set your password</strong> from that email to activate your login.</li>
+      <li><strong>Log in</strong> and connect your calls to start scoring.</li>
+    </ul>
+    <a class="btn" href="https://app.opsiscx.com">Go to login</a>
+    <p class="fine">Didn't get the email within a few minutes? Check spam, or contact support and we'll help you in.</p>
+  </div>
+</body>
+</html>
